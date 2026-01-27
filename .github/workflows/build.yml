@@ -8,13 +8,14 @@ on:
       - README.md
       - LICENSE
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight (00:00 UTC)
     
 jobs:
   continuous-delivery:
 
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout

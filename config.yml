@@ -6,33 +6,21 @@ theme: default
 # HTML Language setting
 lang: "en"
 
-# Plugins, implemented in ./plugins/PLUGIN_NAME
-# Use {{ vars.PLUGIN_NAME }} in the settings below
-
-# The output of the plugin can be used below, e.g., {{vars.GithubRepoStarsCountPlugin}}
-plugins:
-  # Automatically fetch Github repo star count
-  - GithubRepoStarsCountPlugin:
-      - ZhgChgLi/ZMarkupParser
-      - ZhgChgLi/ZReviewTender
-      - ZhgChgLi/ZMediumToMarkdown
-      - ZhgChgLi/linkyee
-
-# Google Analytics tracking id
-google_analytics_id:
 
 # HTML Title
-title: "ZhgChgLi's Links"
+title: "COSCUP's Links"
 
 # Avatar image path
-avatar: "./images/profile.jpeg"
+avatar: "./images/profile.png"
 
 # Name section text
-name: "@zhgchgli"
+name: "@COSCUP"
 
 # Tagline section text
-tagline: >-
-    An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing.
+tagline: |-
+    COSCUP is an annual conference for open source enthusiasts, organized by the community since 2006.
+    We're happy to announce that this year, we are co-hosting it with UbuCon Asia.
+    Join us in Taipei on August 8–9, 2026 — see you there!
 
 # List of links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
@@ -43,54 +31,27 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-brands fa-medium"
-      text: "Tech Blog <span class='link-button-text'>(100+ Posts)</span>"
-      url: "https://blog.zhgchg.li"
-      alt: "ZhgChgLi's Tech Blog"
-      title: "ZhgChgLi's Tech Blog"
+      icon: "fa fa-bullhorn"
+      text: "2026 Call for Papers"
+      url: "https://pretalx.coscup.org/coscup-2026/cfp"
+      alt: "COSCUP's CFP"
+      title: "COSCUP's CFP"
       target: "_blank"
   - link:
-      icon: "fa-brands fa-medium"
-      text: "Travelog <span class='link-button-text'>(10+ Posts)</span>"
-      url: "https://medium.com/ztravel"
-      alt: "ZhgChgLi's Travelog"
-      title: "ZhgChgLi's Travelog"
+      icon: "fa fa-desktop"
+      text: "COSCUP's Website"
+      url: "https://coscup.org/2025/en/"
+      alt: "COSCUP's 2025 Website"
+      title: "COSCUP's 2025 Website"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-rss"
-      text: "Website"
-      url: "https://zhgchg.li/"
-      alt: "ZhgChgLi's Website"
-      title: "ZhgChgLi's Website"
+      icon: "fa fa-heart-o"
+      text: "Want to hear more about COSCUP?"
+      url: "https://app.formbricks.com/s/cmkhqoplq4g5kad01ix19rh6q"
+      alt: "COSCUP's form"
+      title: "COSCUP's form"
       target: "_blank"
-  - link:
-      icon: "fa-brands fa-swift"
-      text: "ZMarkupParser <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZMarkupParser']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZMarkupParser"
-      alt: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
-      title: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-app-store-ios"
-      text: "ZReviewTender <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZReviewTender']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZReviewTender"
-      alt: "ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow."
-      title: "ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow."
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-markdown"
-      text: "ZMediumToMarkdown <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZMediumToMarkdown']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZMediumToMarkdown"
-      alt: "ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format."
-      title: "ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format."
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-github"
-      text: "linkyee <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/linkyee']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/linkyee"
-      alt: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
-      title: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
-      target: "_blank"
+
 
 
 # List of social media links
@@ -101,47 +62,41 @@ links:
 # target: _blank opens in a new tab, _self opens in the same frame
 socials:
   - social:
-      icon: "fa-brands fa-medium"
-      url: "https://blog.zhgchg.li"
-      title: "ZhgChgLi's Medium"
-      alt: "ZhgChgLi's Medium"
+      icon: "fa-brands fa-mastodon"
+      url: "https://floss.social/@COSCUP"
+      title: "COSCUP's Mastodon"
+      alt: "COSCUP's MastOdon"
       target: "_blank"
   - social:
       icon: "fa-brands fa-github"
-      url: "https://github.com/ZhgChgLi"
-      title: "ZhgChgLi's GitHub"
-      alt: "ZhgChgLi's GitHub"
+      url: "https://github.com/COSCUP"
+      title: "COSCUP's GitHub"
+      alt: "COSCUP's GitHub"
       target: "_blank"
   - social:
-      icon: "fa-brands fa-twitter"
-      url: "https://twitter.com/zhgchgli"
-      title: "ZhgChgLi's Twitter"
-      alt: "ZhgChgLi's Twitter"
+      icon: "fa-brands fa-square-x-twitter"
+      url: "https://x.com/coscup"
+      title: "COSCUP's x"
+      alt: "COSCUP's x"
       target: "_blank"
   - social:
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/zhgchgli/"
-      title: "ZhgChgLi's LinkedIn"
-      alt: "ZhgChgLi's LinkedIn"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/zhgchgli/"
-      title: "Instagram"
-      alt: "ZhgChgLi's Instagram"
+      url: "https://www.linkedin.com/company/coscup-tw/"
+      title: "COSCUP's LinkedIn"
+      alt: "COSCUP's LinkedIn"
       target: "_blank"
   - social:
       icon: "fa-solid fa-envelope"
-      url: "mailto:zhgchgli@gmail.com"
-      title: "Email: zhgchgli@gmail.com"
-      alt: "zhgchgli@gmail.com"
+      url: "mailto:program@coscup.org"
+      title: "Email: program@coscup.org"
+      alt: "program@coscup.org"
       target: "_blank"
 
 # Footer text
 footer: >
-    Hi there! Follow me on Medium or GitHub, or stay connected on Instagram or LinkedIn.
+    Hi there! Please follow us or contact us through the platforms above.
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
 copyright: >
-  © 2024  <a href="https://link.zhgchg.li" target="_blank">ZhgChgLi</a>. Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a>
+  © 2026 Powered by <a href="https://github.com/Melaniecode/coscup.bio" target="_blank">COSCUP</a>
